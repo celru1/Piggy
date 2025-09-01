@@ -54,10 +54,10 @@ class BoarSyncPanelProvider extends PanelProvider
                 SubstituteBindings::class,
                 DisableBladeIconComponents::class,
                 DispatchServingFilamentEvent::class,
-                RedirectIfAccessingWrongDashboard::class
             ])
             ->authMiddleware([
                 Authenticate::class,
+                 RedirectIfAccessingWrongDashboard::class
             ]);
     }
 }
