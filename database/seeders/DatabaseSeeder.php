@@ -14,10 +14,15 @@ class DatabaseSeeder extends Seeder
     public function run(): void
     {
         // User::factory(10)->create();
-
+        /**
+         * insert admin account to the database
+         * password is password
+         * lantawa factories/UserFactory.php naa dha ang password creation
+         */
         User::factory()->create([
-            'name' => 'Test User',
-            'email' => 'test@example.com',
+            'name' => 'Admin',
+            'email' => 'admin@admin.com',
+            'role' => 'admin'
         ]);
     }
 }
