@@ -1,13 +1,20 @@
 import { defineConfig } from 'vite';
-import laravel from 'laravel-vite-plugin';
+import laravel, { refreshPaths } from 'laravel-vite-plugin';
 import tailwindcss from '@tailwindcss/vite';
 
 export default defineConfig({
     plugins: [
         laravel({
             input: ['resources/css/app.css', 'resources/js/app.js'],
-            refresh: true,
+            // hot reloading or autorefresh kung mag edit sa mga files ng under anah nga mga folders
+            refresh: [
+                ...refreshPaths,
+                "app/Livewire/**",
+                "app/Filament/**",
+                "app/Providers/**",
+            ],
         }),
+
         tailwindcss(),
     ],
 });
