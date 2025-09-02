@@ -18,19 +18,7 @@
     <link rel="preload" as="image" href="https://images.pexels.com/photos/590016/pexels-photo-590016.jpeg">
     <link rel="preload" as="image" href="https://images.pexels.com/photos/590041/pexels-photo-590041.jpeg">
 
-    <!-- Fonts -->
-    <link rel="preconnect" href="https://fonts.bunny.net">
-    <link href="https://fonts.bunny.net/css?family=instrument-sans:400,500,600" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-
     @vite(['resources/css/app.css', 'resources/js/app.js'])
-
-    <style>
-        body {
-            font-family: 'Inter', sans-serif;
-        }
-    </style>
 </head>
 
 <body class="bg-white">
@@ -108,7 +96,7 @@
             <div class="grid md:grid-cols-3 gap-12">
                 <!-- Feature 1 -->
                 <div class="p-6 bg-white rounded-xl shadow-lg hover:shadow-xl transition duration-300">
-                    <img src="https://images.pexels.com/photos/590022/pexels-photo-590022.jpeg" alt="Collect data"
+                    <img src="" alt="Collect data"
                         class="w-16 h-16 mx-auto mb-6 rounded-full object-cover">
                     <h3 class="text-xl font-bold text-gray-900 mb-4">Collect & Manage Data</h3>
                     <p class="text-gray-600">
@@ -118,7 +106,7 @@
 
                 <!-- Feature 2 -->
                 <div class="p-6 bg-white rounded-xl shadow-lg hover:shadow-xl transition duration-300">
-                    <img src="https://images.pexels.com/photos/590016/pexels-photo-590016.jpeg" alt="Analyse data"
+                    <img src="" alt="Analyse data"
                         class="w-16 h-16 mx-auto mb-6 rounded-full object-cover">
                     <h3 class="text-xl font-bold text-gray-900 mb-4">Analyse</h3>
                     <p class="text-gray-600">
@@ -129,7 +117,7 @@
 
                 <!-- Feature 3 -->
                 <div class="p-6 bg-white rounded-xl shadow-lg hover:shadow-xl transition duration-300">
-                    <img src="https://images.pexels.com/photos/590041/pexels-photo-590041.jpeg" alt="Optimize data"
+                    <img src="" alt="Optimize data"
                         class="w-16 h-16 mx-auto mb-6 rounded-full object-cover">
                     <h3 class="text-xl font-bold text-gray-900 mb-4">Optimize</h3>
                     <p class="text-gray-600">

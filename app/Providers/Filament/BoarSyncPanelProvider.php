@@ -7,8 +7,6 @@ use Filament\Http\Middleware\Authenticate;
 use Filament\Http\Middleware\AuthenticateSession;
 use Filament\Http\Middleware\DisableBladeIconComponents;
 use Filament\Http\Middleware\DispatchServingFilamentEvent;
-use Filament\Http\Responses\Auth\LoginResponse;
-use Filament\Pages;
 use Filament\Panel;
 use Filament\PanelProvider;
 use Filament\Support\Colors\Color;
@@ -30,6 +28,7 @@ class BoarSyncPanelProvider extends PanelProvider
             ->path('')
             ->login()
             ->registration()
+            ->passwordReset()
             ->spa()
             ->colors([
                 'primary' => Color::Blue,
